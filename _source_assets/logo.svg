@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <rect x="4" y="10" width="40" height="28" rx="5" fill="url(#cardGrad)"/>
+  <rect x="4" y="16" width="40" height="6" fill="#ffffff" opacity="0.15"/>
+  <rect x="10" y="23" width="28" height="2" rx="1" fill="url(#beamGrad)"/>
+  <path d="M10 14 L10 10 L14 10" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+  <path d="M38 10 L34 10 M38 10 L38 14" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+  <path d="M10 34 L10 38 L14 38" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+  <path d="M38 38 L34 38 M38 38 L38 34" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+  <circle cx="38" cy="12" r="4" fill="#a5b4fc"/>
+  <circle cx="38" cy="12" r="2" fill="#ffffff"/>
+  <defs>
+    <linearGradient id="cardGrad" x1="4" y1="10" x2="44" y2="38" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="beamGrad" x1="10" y1="24" x2="38" y2="24" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c7d2fe" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c7d2fe" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>
